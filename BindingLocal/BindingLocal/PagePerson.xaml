@@ -6,7 +6,8 @@
     <StackLayout x:Name="rootStack">
       <Entry x:Name="txtName" Text="{Binding Path=Name}"></Entry>
       <Entry x:Name="txtAge" Text="{Binding Path=Age}"></Entry>
-
+      <Button Text="Change Age" Clicked="Button_OnClicked"></Button>
+      <Label x:Name="lblAge"></Label>
     </StackLayout>
   </ContentPage.Content>
 </ContentPage>

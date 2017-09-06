@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
-using Xamarin.Forms;
+﻿using Xamarin.Forms;
 
 namespace BindingLocal
 {
@@ -12,8 +7,7 @@ namespace BindingLocal
     public App()
     {
       InitializeComponent();
-
-      MainPage = new BindingLocal.MainPage();
+      MainPage = new BindingLocal.PagePerson();
     }
 
     protected override void OnStart()

@@ -6,7 +6,7 @@
     <ViewCell>
       <StackLayout Margin="10" Spacing="5" Orientation="Vertical">
         <StackLayout Spacing="5" Orientation="Horizontal">
-        <Image Source="{Binding ImageStage}"></Image>
+        <Image Source="{Binding ImageStage}" ></Image>
           <Label FontSize="16" Text="{Binding NomStage}"></Label>
         </StackLayout>
         <Label BackgroundColor="#EAE0C8" FontSize="16" TextColor="Black"

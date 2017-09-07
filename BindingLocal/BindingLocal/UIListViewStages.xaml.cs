@@ -9,6 +9,8 @@ namespace BindingLocal
     public UiListViewStages()
     {
       InitializeComponent();
+      var stages = DAL.DalStages.RetourStages();
+      LstStages.ItemsSource = stages;
     }
   }
 }

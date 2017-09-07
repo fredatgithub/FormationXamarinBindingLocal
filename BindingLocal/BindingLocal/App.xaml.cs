@@ -7,7 +7,8 @@ namespace BindingLocal
     public App()
     {
       InitializeComponent();
-      MainPage = new BindingLocal.PagePerson();
+      //MainPage = new BindingLocal.PagePerson();
+      MainPage = new BindingLocal.UiListViewStages();
     }
 
     protected override void OnStart()

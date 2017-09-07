@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<DataTemplate xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BindingLocal.Views.ViewStage">
+
+    <ViewCell>
+      <StackLayout Margin="10" Spacing="5" Orientation="Vertical">
+        <StackLayout Spacing="5" Orientation="Horizontal">
+          <Image Source="Binding ImageStage"></Image>
+          <Label FontSize="16" Text="{Binding NomStage}"></Label>
+        </StackLayout>
+        <Label BackgroundColor="#EAE0C8" FontSize="16" TextColor="Black"
+                 Text="{Binding DescriptionStage}"></Label>
+      </StackLayout>
+    </ViewCell>
+</DataTemplate>

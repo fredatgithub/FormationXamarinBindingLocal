@@ -1,7 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xlmns:model="clr-namespace:Binding.Model"
              x:Class="BindingLocal.PagePerson">
+  <contentPage.Resources>
+    <ResourceDictionary>
+      
+    </ResourceDictionary>
+  </contentPage.Resources>
   <ContentPage.Content>
     <StackLayout x:Name="rootStack">
       <Entry x:Name="txtName" Text="{Binding Path=Name}"></Entry>

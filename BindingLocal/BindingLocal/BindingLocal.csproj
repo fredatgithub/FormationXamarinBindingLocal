@@ -41,6 +41,7 @@
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Model\IntToColor.cs" />
     <Compile Include="Model\Person.cs" />
     <Compile Include="PagePerson.xaml.cs">
       <DependentUpon>PagePerson.xaml</DependentUpon>
